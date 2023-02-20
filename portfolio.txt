@@ -1,0 +1,19 @@
+Personal info
+--------
+From: Debrecen
+Current job: Student, University Of Obuda, Budapest
+
+Professional interests
+--------
+- Web design/development
+- Software design/development
+- IT Security
+- System administration (Linux, Windows)
+- Reverse engineering
+- Computer architectures
+
+Languages
+--------
+- Programming: C, C#, Python, JavasScript
+- Spoken: English (B2), Hungarian (native)
+- Written: English (B2), Hungarian (native)
