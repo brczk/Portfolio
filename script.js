@@ -1,5 +1,7 @@
 let i = 0;
 const menuButton = document.querySelector('body #nav-button');
+const navbar = document.querySelector('body #navbar');
+const content = document.querySelector('body #content');
 
 const animateHome = () => {
     const nouns = ['learning', 'contribution', 'creativity', 'progression', 'success'];
@@ -25,8 +27,6 @@ const loadPage = (event) => {
 }
 
 const toggleMenu = () => {
-    const navbar = document.querySelector('body #navbar');
-    const content = document.querySelector('body #content');
     if(window.getComputedStyle(navbar).display == 'none')
     {
         navbar.style.display = 'block';
@@ -51,6 +51,20 @@ const fetchPortfolio = () => {
 window.onload = () => {
     setInterval(animateHome, 1200);
     menuButton.addEventListener('click', toggleMenu);
+    window.addEventListener('resize', () => {
+        const width = document.documentElement.clientWidth;
+        if(width <= 1200)
+        {
+            menuButton.style.display = 'block';
+            navbar.style.display = 'none';
+        }
+        else
+        {
+            menuButton.style.display = 'none';
+            navbar.style.display = 'block';
+            content.style.display = 'block';
+        }
+    });
     document.querySelectorAll('#navbar ul li').forEach(li => {
         li.addEventListener('click', loadPage);
     });
