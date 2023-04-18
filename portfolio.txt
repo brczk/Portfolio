@@ -3,14 +3,15 @@ Personal info
 From: Debrecen
 Current job: Student, University Of Obuda, Budapest
 
-Professional interests
+Interests
 --------
 - Web design/development
 - Software design/development
 - IT Security
 - System administration (Linux, Windows)
-- Reverse engineering
+- Virtualization
 - Computer architectures
+- Math
 
 Languages
 --------
