@@ -15,6 +15,6 @@ Interests
 
 Languages
 --------
-- Programming: C, C#, Python, JavasScript
+- Programming: C#, Python, JavasScript
 - Spoken: English (B2), Hungarian (native)
 - Written: English (B2), Hungarian (native)
